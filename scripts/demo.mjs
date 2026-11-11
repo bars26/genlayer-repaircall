@@ -182,7 +182,7 @@ const REFUSALS = [
   [AUDIO, 248065, "Yamaha amplifier restoration: its device page sits under no category"],
   [GAMES, 247031, "Chrysler instrument cluster: flagged in progress by iFixit"],
   [AUDIO, 248998, "OVNS e-cigarette indicator reset: 22 steps, but 19 are inlined from its two prerequisite guides (3 own)"],
-  [BATTERY, 242713, "Miele vacuum motor repair: all 10 steps come from prerequisite guides (0 own)"],
+  [BATTERY, 242713, "Miele vacuum motor repair, created 2026-10-12: before the call's start (its 10 steps also all come from prerequisite guides)"],
 ];
 for (const [call, guide] of REFUSALS) await write(C.scout2, "scout2", "nominate", [call, guide], 0n, { expectError: true });
 const again = CASES.find((c) => ids[c.key]);

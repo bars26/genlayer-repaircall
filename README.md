@@ -48,7 +48,7 @@ can check, for every guide, that it is new, complete and about the right device.
 wallet: the app shows its own steps, photos, flags and device path and runs the contract's code checks against a call before you
 stake. Writes need MetaMask on GenLayer Studio (chain 61999); **Test GEN** funds your wallet.
 
-**Contract:** CONTRACT_PLACEHOLDER on GenLayer Studio.
+**Contract:** [`0x0F82D377e0833A01dcFCBDFBB9d8355c6dC9013c`](https://explorer-studio.genlayer.com/address/0x0F82D377e0833A01dcFCBDFBB9d8355c6dC9013c) on GenLayer Studio.
 
 ## Why GenLayer
 
@@ -58,7 +58,36 @@ GenLayer lets validators do both on data none of them controls: each reads iFixi
 doctored guide, and the money moves only on what they agree on. iFixit's own data is the source of truth for authorship, so
 the author can be paid without ever signing up: the profile they already edit is the proof.
 
-VERIFIED_LIVE_PLACEHOLDER
+## Verified live, on real guides
+
+`scripts/demo.mjs` (2026-11-11) opened three demo calls (reward 0.5 GEN, 20% to the scout, stake 0.1 GEN, contest window 10
+minutes, guides created from 2026-10-15) and nominated real community guides published on iFixit in the four weeks before.
+Every check, revision, share and packet hash is in [`docs/REPRODUCTION.md`](docs/REPRODUCTION.md).
+
+| Call | Guide | Own steps / photos | Validators read | Outcome |
+|---|---|---|---|---|
+| Audio gear (Electronics) | [JBL Spyro subwoofer disassembly](https://www.ifixit.com/Guide/_/249025) | 18 / 18 | COMPLETE | **Accepted**: scout 0.1 GEN, 0.4 GEN held for the author |
+| Audio gear | [Corsair HS65 headset volume potentiometer cleaning](https://www.ifixit.com/Guide/_/248288) | 9 / 9 | COMPLETE | Contested ("looks like an earlier guide", naming guide 160588): not a copy in code, **upheld** on the second look; the scout took the contester's stake |
+| Audio gear | [ONKYO D-102AXLTD woofer surround replacement](https://www.ifixit.com/Guide/_/245429) | 7 / 7 | COMPLETE | **Accepted** |
+| Game consoles (Game Console) | [Xbox Series LB/RB repair](https://www.ifixit.com/Guide/_/248913) | 16 / 16 | COMPLETE | **Accepted** |
+| Game consoles | [Bandai WonderSwan polarizing film replacement](https://www.ifixit.com/Guide/_/246022) | 6 / 6 | COMPLETE | **Accepted** |
+| Game consoles | [ModRetro Chromatic disassembly](https://www.ifixit.com/Guide/_/243391) | 12 / 12 | COMPLETE | **Accepted** |
+| Battery replacements (Appliance) | [GE refrigerator water filter replacement](https://www.ifixit.com/Guide/_/245804) | 9 / 9 | OFF_SCOPE | **Rejected**: an appliance, no battery; the stake went to the pot |
+| Battery replacements | [Roomba 520 infrared sensor cleaning](https://www.ifixit.com/Guide/_/243703) | 7 / 7 | OFF_SCOPE | **Rejected** |
+
+Refused in code (the calls reverted, deposits stayed credited): a guide that does not exist; an empty guide (Xiaomi Redmi 8
+receiver, 0 steps); a 2023 guide (before the call's start); a guide whose device page sits under no category (Yamaha amplifier);
+a guide iFixit flags as in progress (Chrysler instrument cluster); an e-cigarette guide with 22 steps of which **19 are inlined
+from its two prerequisite guides** (3 own steps); a guide created before the call's start; the same guide nominated twice; the
+scout contesting their own nomination; settling a candidate before its window; **collecting an author's share from a wallet
+not written in the author's iFixit profile**; returning a share before its 180 days; closing a call before its last day; and a
+call reaching back to 2020 (its GEN credited back and withdrawn). `totals()` matched the contract's balance at all six
+checkpoints; 2.4 GEN stay held for the six authors.
+
+On a first run against an earlier build, the copy check flagged that e-cigarette guide as a repeat of its own prerequisite (36
+shared photos): iFixit inlines prerequisite steps into a guide. The contract now counts and compares only a guide's own steps,
+and marks the inlined ones for the model.
+
 
 ## Who can do what (and the attacks this blocks)
 
@@ -106,7 +135,7 @@ on-chain and a block holds about 38 KB of it). The direct tests run on both file
 pip install -r requirements.txt
 python3 scripts/bradbury_source.py --check
 genvm-lint check contracts/repair_call.py && genvm-lint check contracts/repair_call.bradbury.py
-pytest tests/direct/ -v                     # TESTS_PLACEHOLDER tests, real iFixit guides in tests/fixtures, reads and the model mocked
+pytest tests/direct/ -v                     # 43 tests, real iFixit guides in tests/fixtures, reads and the model mocked
 
 # the same tests under the Bradbury runner (genlayer-test 0.30 reads GenVM Manager v0.6.0-rc10)
 pip install "genlayer-test==0.30.0rc2" && REPAIRCALL_NETWORK=bradbury pytest tests/direct/ -v
