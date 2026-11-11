@@ -84,6 +84,14 @@ not written in the author's iFixit profile**; returning a share before its 180 d
 call reaching back to 2020 (its GEN credited back and withdrawn). `totals()` matched the contract's balance at all six
 checkpoints; 2.4 GEN stay held for the six authors.
 
+**Wallet test from the live app (MetaMask, 2026-11-11):** a bench link opened iFixit guide
+[246601](https://www.ifixit.com/Guide/_/246601) (Roomba 520 battery replacement, 8 own steps, all photographed) for the
+"Battery replacements" call. The app deposited the stake, the validators read it as COMPLETE (`claim_8`), nobody contested
+within 10 minutes, **Settle accepted it**: the scout's 0.1 GEN share and the stake were credited and **0.4 GEN is held for the
+author**, Carlos López, until 2027-05-10. **Collect** from the tester's wallet was refused (it is not written in that author's
+iFixit profile), and **Withdraw** sent 0.2 GEN. The five transactions are in
+[`docs/REPRODUCTION.md`](docs/REPRODUCTION.md#wallet-test-from-the-live-app).
+
 On a first run against an earlier build, the copy check flagged that e-cigarette guide as a repeat of its own prerequisite (36
 shared photos): iFixit inlines prerequisite steps into a guide. The contract now counts and compares only a guide's own steps,
 and marks the inlined ones for the model.

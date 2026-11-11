@@ -74,6 +74,17 @@ balance after every transfer had finalized:
 
 Credited before withdrawing: scout 1.2 GEN, scout2 0.5 GEN, contester 0.2 GEN.
 
+## Wallet test from the live app
+
+Run by hand on 2026-11-11 from https://repaircall-bars26.vercel.app with MetaMask on GenLayer Studio, opened from a bench link on iFixit guide 246601 (Roomba 520 battery replacement, 8 own steps, all photographed) for call_2 "Battery replacements". The app deposited the stake first, the validators read the guide as COMPLETE (after one leader rotation), nobody contested in the 10-minute window, Settle accepted it: the scout's 0.1 GEN share and the stake were credited and 0.4 GEN is held for the author, Carlos López (iFixit user 1252901), until 2027-05-10. Collecting an author's share from this wallet (tried on claim_1, by iFixit user 6125072) was refused because the wallet is not in that author's iFixit profile. Withdraw sent 0.2 GEN. Wallet `0x4f80b5c475fced34fc9a07ffccf39e1adc1406bf`.
+
+| Step | GEN sent | Result | Tx |
+|---|---|---|---|
+| deposit (auto, missing stake) | 0.1 | credited 0.1 GEN | [`0xa4925dc8…`](https://explorer-studio.genlayer.com/tx/0xa4925dc80590d83c33a991f5980198925df5b82b22ccd5263d4b64baec033362) |
+| nominate call_2, guide 246601 | 0 | claim_8: COMPLETE, candidate (Leader Rotation, then Accepted) | [`0xda8d1d40…`](https://explorer-studio.genlayer.com/tx/0xda8d1d40d83be0912105dbd76cf0191a171f3e9354d80d8908c057ead786118e) |
+| settle claim_8 after the window | 0 | accepted: scout 0.1 GEN + stake 0.1 GEN credited, 0.4 GEN held for the author | [`0xcd699ede…`](https://explorer-studio.genlayer.com/tx/0xcd699edeaf2c8ddd7d5d535ec07c4d274db3aaf1e226554856c168f7eb5545f7) |
+| collect claim_1 (not the author) | 0 | refused: add 0x4F80…06bf to the About text of iFixit user 6125072 (Matrix Melody), then collect | [`0x8a85ef64…`](https://explorer-studio.genlayer.com/tx/0x8a85ef64576bd2839064d741ba0f372bde440de578d875935ec9bb8176ce10b2) |
+| withdraw | 0 | 0.2 GEN sent to the wallet | [`0xc5e0269a…`](https://explorer-studio.genlayer.com/tx/0xc5e0269ae5082a1b78791a4025521bf15c8b4b72e4fc4219cdcca31fc0426ade) |
 
 ## Every transaction
 
