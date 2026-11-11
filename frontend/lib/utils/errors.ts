@@ -147,7 +147,7 @@ export function classifyError(err: unknown, phase: Phase, txHash?: string): TxEr
         ? "The dry-run of this call was rejected by the contract, so no transaction was sent."
         : "Fee estimation failed before anything was sent.",
       hint: reverted
-        ? "The contract would reject this call as sent; check the inputs and the audit's current state."
+        ? "The contract would reject this call as sent; check the inputs and the nomination's current state."
         : "Try again; if it persists the Studio node may be busy.",
     });
   }

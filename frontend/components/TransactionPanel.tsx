@@ -127,7 +127,7 @@ export function TransactionPanel() {
         )}
       </div>
       {entries.length === 0 ? (
-        <p className="text-sm text-muted-foreground">Nothing yet. Connect a wallet, get test GEN, then open an audit or run a step.</p>
+        <p className="text-sm text-muted-foreground">Nothing yet. Connect a wallet, get test GEN, then nominate a guide or open a call.</p>
       ) : (
         <ul className="space-y-2">
           {entries.map((tx) => (

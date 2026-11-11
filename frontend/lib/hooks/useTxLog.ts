@@ -8,7 +8,7 @@ export type TxState = "estimating" | "awaiting_wallet" | "confirming" | "accepte
 export interface TxEntry {
   id: string;
   kind: TxKind;
-  /** The call being created, or the call / sighting id acted on. */
+  /** The call being created, or the call / nomination id acted on. */
   target: string;
   state: TxState;
   txHash?: string;
