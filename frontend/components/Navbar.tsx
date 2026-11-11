@@ -1,0 +1,32 @@
+"use client";
+
+import { Plus } from "lucide-react";
+import { AccountPanel } from "./AccountPanel";
+import { BrandMark } from "./BrandMark";
+import { FaucetButton } from "./FaucetButton";
+import { NetworkSwitch } from "./NetworkSwitch";
+import { WrongNetwork } from "./WrongNetwork";
+import { Button } from "./ui/button";
+
+export function Navbar({ onCreate }: { onCreate: () => void }) {
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-[#F2EDE3]/90 backdrop-blur-md">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
+        <a href="/" className="flex items-center gap-2.5">
+          <BrandMark size={32} />
+          <span className="display text-[24px] font-extrabold leading-none tracking-tight">Repair<span className="text-[#E8590C]">Call</span></span>
+        </a>
+        <div className="flex items-center gap-2 sm:gap-3">
+          <NetworkSwitch />
+          <WrongNetwork />
+          <FaucetButton />
+          <Button size="sm" onClick={onCreate}>
+            <Plus className="w-4 h-4" />
+            <span className="hidden sm:inline">Open a call</span>
+          </Button>
+          <AccountPanel />
+        </div>
+      </div>
+    </header>
+  );
+}

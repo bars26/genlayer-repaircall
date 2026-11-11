@@ -1,0 +1,498 @@
+{
+ "guideid": 171489,
+ "revisionid": 2058704,
+ "title": "Xbox Series X Wireless Controller (Model 1914) Joystick Replacement",
+ "category": "Xbox Series X Wireless Controller",
+ "type": "replacement",
+ "subject": "Joystick",
+ "public": true,
+ "published_date": 1718813496,
+ "created_date": 1712686390,
+ "locale": "en",
+ "url": "https://www.ifixit.com/Guide/Xbox+Series+X+Wireless+Controller+(Model+1914)+Joystick+Replacement/171489",
+ "author": {
+  "userid": 4474682,
+  "username": "Josh Lucas",
+  "reputation": 323
+ },
+ "flags": [
+  {
+   "flagid": "GUIDE_ARCHIVED"
+  },
+  {
+   "flagid": "GUIDE_MARKUP_PROBLEMS"
+  }
+ ],
+ "tools": [
+  {
+   "text": "TR8 Torx Security Screwdriver"
+  },
+  {
+   "text": "TR6 Torx Security Screwdriver"
+  },
+  {
+   "text": "Soldering Iron"
+  },
+  {
+   "text": "Spudger"
+  },
+  {
+   "text": "Tweezers"
+  },
+  {
+   "text": "Lead-Free Solder"
+  }
+ ],
+ "parts": [
+  {
+   "text": "Xbox Series X/S Controller Joystick"
+  },
+  {
+   "text": "Xbox Series X/S Controller - Gulikit TMR Joystick"
+  }
+ ],
+ "prerequisites": [],
+ "introduction_raw": "This guide will show you how to replace the joystick on your Xbox Series X Wireless Controller (Model 1914) and fix stick drift.\n\n***Note***: This guide requires soldering. For more information on soldering take a look at this guide for [guide|750|How to Solder and Desolder Connections|new_window=true].\n\n***Caution***: The soldering iron gets very hot and can cause injury.\n\n***Note***: It is also important to solder in a well-ventilated room.",
+ "conclusion_raw": "To reassemble your device, follow these instructions in reverse order.",
+ "steps": [
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "Start by flipping the controller over and opening the battery compartment located on the middle back of the controller."
+    },
+    {
+     "text_raw": "Remove the batteries. Place both the cover and the batteries off to the side for now."
+    },
+    {
+     "text_raw": "Hold the Xbox button for a few seconds to drain any remaining power."
+    },
+    {
+     "text_raw": "This will make sure you don't shock yourself or short the device."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3395517
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "Next, take your opening tool and pry off the grip plates."
+    },
+    {
+     "text_raw": "Using your opening tool, insert it into the grove found on the back of the grips."
+    },
+    {
+     "text_raw": "Slide the tool throughout the groove, apply more pressure when you feel more resistance."
+    },
+    {
+     "text_raw": "If done properly, you'll hear clicks as the clips come loose."
+    },
+    {
+     "text_raw": "Repeat this until the grip cover comes off."
+    },
+    {
+     "text_raw": "Do the same for the other grip."
+    },
+    {
+     "text_raw": "This step requires some force so be cautioned."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3281173
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "After removing the grip plates, remove the 5 screws holding the front plate."
+    },
+    {
+     "text_raw": "Use a T8H sized Torx Safety bit for these screws."
+    },
+    {
+     "text_raw": "The screws are shown in the picture with two in each grip and one in the battery bay."
+    },
+    {
+     "text_raw": "The battery bay screw is underneath the sticker. You can either poke through it with your tool or peel it away."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3290871
+     },
+     {
+      "id": 3290873
+     },
+     {
+      "id": 3290874
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "After removing the back screws, the face plate should be easy to remove. Remove it and place it to the side for later."
+    },
+    {
+     "text_raw": "Next, locate the joysticks covers and remove them by simply pulling them up from the controller."
+    },
+    {
+     "text_raw": "Place the joysticks off to the side."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3395522
+     },
+     {
+      "id": 3395523
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "Place your spudger as shown and gently peel the sync button plate off using the same method as before."
+    },
+    {
+     "text_raw": "Remove the plate and place it off to the side for later."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3487358
+     },
+     {
+      "id": 3395525
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "After that, locate the RB and LB bumper piece and using your metal spudger, place it between the frame and the hinge."
+    },
+    {
+     "text_raw": "Gently pry the piece away and off, doing the same for the other end of the bumper piece."
+    },
+    {
+     "text_raw": "Having done this successfully, the bumper piece should come off cleanly and with little effort."
+    },
+    {
+     "text_raw": "Set the bumper piece off to the side."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3395527
+     },
+     {
+      "id": 3312854
+     },
+     {
+      "id": 3395529
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "By now, the back plastic frame should simply fall off the main components."
+    },
+    {
+     "text_raw": "Take the back piece off and leave it off to the side for now."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3281196
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "Take the main piece and flip it over to show the main components."
+    },
+    {
+     "text_raw": "Next, we will be removing both triggers."
+    },
+    {
+     "text_raw": "Move the triggers forward and expose the back parts of the trigger."
+    },
+    {
+     "text_raw": "Using the T6 sized bit, remove the screw from the trigger and place it safely off to the side."
+    },
+    {
+     "text_raw": "Do the same for the other trigger and set the pieces off to the side."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3395530
+     },
+     {
+      "id": 3395531
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "With the trigger frames out of the way, remove the trigger weights from the triggers and place them out of the way."
+    },
+    {
+     "text_raw": "These weights are attached by wires and cannot be removed easily so just follow the wire, loosening it as far as it can go."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3395516
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "Next, we will disconnect the wires for the select and menu buttons."
+    },
+    {
+     "text_raw": "Using either your fingers or a set of tweezers, gently pull the connection up and away to disconnect it."
+    },
+    {
+     "text_raw": "Do this for both connections."
+    },
+    {
+     "text_raw": "While here, remove the two screws above the connections. These connect the motherboard to the frame."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3281188
+     },
+     {
+      "id": 3311149
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "Next is the grip rumble weights."
+    },
+    {
+     "text_raw": "Simply using your hands or forceps, remove the weights by sliding them towards you and lifting them out."
+    },
+    {
+     "text_raw": "These weights are also connected by wires, keep this in mind when removing them."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3281180
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "With both set of rumble weights out of the way, next is the board screws."
+    },
+    {
+     "text_raw": "Using the T6 bit screwdriver, unscrew the screws located on next to where the grip rumble weights were."
+    },
+    {
+     "text_raw": "Set these screws aside for now."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3395532
+     },
+     {
+      "id": 3395533
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "Flip the controller over."
+    },
+    {
+     "text_raw": "Following the cord attached to the trigger it should be attached to the controller via small tracks."
+    },
+    {
+     "text_raw": "Gently pull the wire out from the tracks and lay the wire and trigger parts out of the way."
+    },
+    {
+     "text_raw": "The trigger rumble weight cannot be completely removed so just keep it as much as possible out of the way."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3281189
+     },
+     {
+      "id": 3312767
+     },
+     {
+      "id": 3312768
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "Find the D-pad plate surrounding the outer rim of the D-pad."
+    },
+    {
+     "text_raw": "Using your spudger, slide it underneath the piece and pull it up from the controller."
+    },
+    {
+     "text_raw": "The D-pad plate is attached at the top and bottom parts of the rim. Keep this in mind when applying pressure to remove this piece. Try to keep the pressure around those areas."
+    },
+    {
+     "text_raw": "Remove the plate and set it to the side."
+    },
+    {
+     "text_raw": "Remove the D-pad from the controller and set aside for now."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3281193
+     },
+     {
+      "id": 3312753
+     },
+     {
+      "id": 3312754
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "This step involves flipping over the controller to continue but the motherboard is no longer connected to the controller frame, so when flipping it over, keep the loose parts together."
+    },
+    {
+     "text_raw": "Isolate the motherboard. It will be attached to the joysticks."
+    },
+    {
+     "text_raw": "Lay the board flat and observe for any debris or clear obstructions."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3281184
+     },
+     {
+      "id": 3312777
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 171489,
+   "lines": [
+    {
+     "text_raw": "Flip the board over."
+    },
+    {
+     "text_raw": "Locate the joystick solder nubs on the back of the bottom of the board."
+    },
+    {
+     "text_raw": "Using the soldering iron, heat it up to around 350-375 degrees Fahrenheit and lay the tip on the aforementioned nubs."
+    },
+    {
+     "text_raw": "Hold it for around 5-7 seconds or until the solder nub liquefies. Repeat this for the rest of the nubs."
+    },
+    {
+     "text_raw": "Having done this, the joystick should slide out the board. Install the replacement joystick by sliding in the joystick prongs into the slots that the old joystick sat in."
+    },
+    {
+     "text_raw": "If the replacement joystick does not slide in properly, check the prongs to make sure they are aligned with the slots."
+    },
+    {
+     "text_raw": "With the joystick in, solder the prongs until they are secured into place on the boards."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3312799
+     },
+     {
+      "id": 3281185
+     }
+    ]
+   }
+  }
+ ]
+}

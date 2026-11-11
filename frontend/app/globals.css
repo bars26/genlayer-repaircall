@@ -1,0 +1,337 @@
+@import "tailwindcss";
+
+/* Fonts: Archivo (display), IBM Plex Sans (body), JetBrains Mono (ids and checksums), via next/font in app/layout.tsx */
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-body: var(--font-plex);
+  --font-display: var(--font-archivo);
+
+  /* RepairCall palette: a repair bench. Kraft paper, charcoal ink, safety orange for what is open, a workshop green
+     for guides that were accepted, pencil grey for those that were not. */
+  --background: #F2EDE3;
+  --foreground: #1E2226;
+  --card: #FFFCF6;
+  --card-foreground: #1E2226;
+  --popover: #FFFCF6;
+  --popover-foreground: #1E2226;
+  --primary: #1E2226;
+  --primary-foreground: #FFFFFF;
+  --secondary: #E9E1D1;
+  --secondary-foreground: #1E2226;
+  --muted: #E9E1D1;
+  --muted-foreground: #5D6168;
+  --accent: #E8590C;
+  --accent-foreground: #FFFFFF;
+  --destructive: #B3261E;
+  --destructive-foreground: #FFFFFF;
+  --border: #D9CFBD;
+  --input: #FFFCF6;
+  --ring: #E8590C;
+  --chart-1: #E8590C;
+  --chart-2: #1E2226;
+  --chart-3: #2F7D5B;
+  --chart-4: #9AA1AE;
+  --chart-5: #8A6D3B;
+  --radius: 0.5rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.65 0.22 300);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply text-foreground;
+    font-family: var(--font-body), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display), system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  /* Primary action (name kept for the shared Button variant): charcoal */
+  .gradient-purple-pink {
+    background: #1E2226;
+    color: #FFFFFF !important;
+  }
+  .lab-card, .brand-card {
+    background: #FFFCF6;
+    border: 1px solid #D9CFBD;
+    border-radius: 0.6rem;
+    box-shadow: 0 1px 0 rgb(30 34 38 / 0.04), 0 14px 30px -22px rgb(30 34 38 / 0.45);
+  }
+  .lab-head {
+    background: #1E2226;
+    color: #FFFFFF;
+  }
+  /* hazard tape along the top of an open call */
+  .hazard {
+    height: 6px;
+    background: repeating-linear-gradient(-45deg, #E8590C 0 10px, #1E2226 10px 20px);
+    border-radius: 0.6rem 0.6rem 0 0;
+  }
+  .display {
+    font-family: var(--font-archivo), system-ui, sans-serif;
+    letter-spacing: -0.015em;
+  }
+  .mono {
+    font-family: var(--font-jetbrains), ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  .field {
+    width: 100%;
+    height: 2.25rem;
+    border-radius: 0.4rem;
+    border: 1px solid #D9CFBD;
+    background: #FFFFFF;
+    padding: 0 0.7rem;
+    font-size: 0.875rem;
+  }
+  textarea.field { height: auto; padding: 0.5rem 0.7rem; }
+  .field:focus {
+    outline: 2px solid rgb(232 89 12 / 0.35);
+    outline-offset: 1px;
+  }
+  .label-tag {
+    font-family: var(--font-jetbrains), ui-monospace, monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #5D6168;
+  }
+  .tape {
+    background: #FDE7D9;
+    color: #A63D06;
+    border-radius: 0.3rem;
+    padding: 0.08rem 0.45rem;
+    font-weight: 700;
+    font-family: var(--font-jetbrains), ui-monospace, monospace;
+  }
+  /* inspection tags for a nomination's state */
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-family: var(--font-jetbrains), ui-monospace, monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.55rem 0.2rem 0.45rem;
+    border-radius: 0.25rem 0.9rem 0.9rem 0.25rem;
+  }
+  .tag::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: currentColor;
+    opacity: 0.85;
+  }
+  .tag-orange { color: #B54708; background: #FFEDD9; }
+  .tag-green { color: #1F6B4A; background: #DCF1E5; }
+  .tag-grey { color: #6B7079; background: #ECE8DF; }
+  .check-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    font-size: 0.8rem;
+  }
+  .ledger {
+    border: 1px solid #E9E1D1;
+    border-radius: 0.35rem;
+    padding: 0.35rem 0.5rem;
+    background: #FFFFFF;
+  }
+  .ledger dt {
+    font-family: var(--font-jetbrains), monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #5D6168;
+  }
+  .ledger dd { margin: 0; font-weight: 600; }
+  .pegboard {
+    background-color: #F2EDE3;
+    background-image: radial-gradient(rgb(30 34 38 / 0.10) 1.4px, transparent 1.6px);
+    background-size: 22px 22px;
+  }
+}
+
+html {
+  min-height: 100vh;
+  height: 100%;
+  scroll-behavior: smooth;
+  background-color: #F2EDE3;
+  overscroll-behavior: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh !important;
+  overscroll-behavior: none;
+}
+
+main { position: relative; }
+main > * { position: relative; z-index: 1; }
+
+/* Reown AppKit Modal Customization */
+/* Hide "UX by Reown" branding */
+w3m-legal-footer,
+[data-testid="w3m-legal-footer"],
+wcm-legal-footer {
+  display: none !important;
+}
+
+/* Match project border radius consistently - 8px for cleaner look */
+w3m-modal,
+wcm-modal,
+w3m-router,
+wcm-router,
+w3m-modal-content,
+wcm-modal-content {
+  --w3m-border-radius-master: 8px !important;
+}
+
+/* Enhance modal glass-morphism to match app theme */
+w3m-modal,
+wcm-modal {
+  --w3m-background: oklch(0.24 0.01 0 / 0.95) !important;
+  --w3m-color-overlay: oklch(0 0 0 / 0.8) !important;
+}
+
+/* Override all border radius in AppKit components */
+w3m-modal *,
+wcm-modal *,
+w3m-button,
+wcm-button,
+w3m-wallet-button,
+wcm-wallet-button,
+w3m-card,
+wcm-card,
+w3m-input,
+wcm-input {
+  border-radius: 8px !important;
+}
+
+/* Smaller radius for internal elements */
+w3m-wallet-image,
+wcm-wallet-image,
+w3m-network-image,
+wcm-network-image {
+  border-radius: 6px !important;
+}
+
+/* Hide network compatibility warning */
+w3m-info-footer,
+wcm-info-footer,
+[data-testid="w3m-info-footer"],
+[data-testid="wcm-info-footer"] {
+  display: none !important;
+}
+
+/* Hide Send/Swap/Onramp features in wallet modal */
+/* Target legacy component names */
+w3m-button[data-variant="send"],
+wcm-button[data-variant="send"],
+w3m-send-button,
+wcm-send-button,
+[data-testid="w3m-send-button"],
+[data-testid="wcm-send-button"],
+w3m-swap-button,
+wcm-swap-button,
+w3m-onramp-button,
+wcm-onramp-button,
+w3m-wallet-features,
+wcm-wallet-features,
+w3m-account-token-send-button,
+wcm-account-token-send-button,
+w3m-wallet-send-button,
+wcm-wallet-send-button,
+/* Target new web components (wui-*) */
+wui-list-item[data-variant="send"],
+wui-list-item[data-type="send"],
+wui-list-button[data-variant="send"],
+wui-action-list-item[data-variant="send"],
+wui-list-item:has(wui-icon[name="send"]),
+wui-list-item:has(wui-icon[name="swap"]),
+wui-list-item:has(wui-icon[name="onramp"]),
+/* Position-based hiding - assuming Send is 2nd item after Fund wallet */
+w3m-account-view wui-list-item:nth-child(2),
+wcm-account-view wui-list-item:nth-child(2),
+wui-account-view wui-list-item:nth-child(2),
+/* Alternative selectors for various modal states */
+[data-view="Account"] wui-list-item:nth-child(2),
+[data-view="account"] wui-list-item:nth-child(2),
+/* Broad fallback - hide any list item with send/swap/onramp icons */
+wui-list-item[icon="send"],
+wui-list-item[icon="swap"],
+wui-list-item[icon="onramp"],
+wui-list-item[data-icon="send"],
+wui-list-item[data-icon="swap"],
+wui-list-item[data-icon="onramp"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}

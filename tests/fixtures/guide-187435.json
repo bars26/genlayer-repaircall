@@ -1,0 +1,332 @@
+{
+ "guideid": 187435,
+ "revisionid": 2190673,
+ "title": "How to Fix Xbox Series (Model 1914) Controller Stick Drift Without Soldering",
+ "category": "Xbox Series X Wireless Controller",
+ "type": "replacement",
+ "subject": "Xbox Series (Model 1914) Trimmer Potentiometer Sensor",
+ "public": true,
+ "published_date": 1750965857,
+ "created_date": 1747189492,
+ "locale": "en",
+ "url": "https://www.ifixit.com/Guide/How+to+Fix+Xbox+Series+(Model+1914)+Controller+Stick+Drift+Without+Soldering/187435",
+ "author": {
+  "userid": 4725454,
+  "username": "Gelver Maldonado",
+  "reputation": 325
+ },
+ "flags": [],
+ "tools": [
+  {
+   "text": "iFixit Opening Tool"
+  },
+  {
+   "text": "T8 Torx Security Bit Screwdriver"
+  },
+  {
+   "text": "T6 Torx Screwdriver"
+  },
+  {
+   "text": "Tweezers"
+  }
+ ],
+ "parts": [
+  {
+   "text": "Trimmer Potentiometer Sensor"
+  }
+ ],
+ "prerequisites": [],
+ "introduction_raw": "Is your Xbox controller analog stick moving on its own? This common issue, known as \"stick drift,\" is often caused by dirt, wear and tear, or physical damage.\n\nThe first step is always to clean around the analog stick. If the drift persists, this guide will show you how to replace the internal potentiometer\u2014the sensor that detects stick movement\u2014without requiring any soldering.\n\nThis [link|https://www.youtube.com/watch?v=vQesgAtr2e4&t=291s|video|new_window=true] provides detailed information about the components of the trimmer potentiometer sensor, including the wiper.\n\nIn this guide, the model of the Xbox Series controller used was model 1914, but this process also works for previous models.\n\nBefore you begin this repair, make sure the controller is off and remove the batteries from the back of the device.",
+ "conclusion_raw": "I hope this guide has been helpful!",
+ "steps": [
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "Before you begin, remove the two double-A (AA) batteries from the back of the controller."
+    },
+    {
+     "text_raw": "Wedge your spudger into the seam between the back and side panels."
+    },
+    {
+     "text_raw": "Grip the controller firmly and pry the side panel away by moving the spudger back and forth. Work your way around the entire seam using this motion."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3657159
+     },
+     {
+      "id": 3657160
+     },
+     {
+      "id": 3657161
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "One of the five 2.4 mm screws is located in the middle of the battery container."
+    },
+    {
+     "text_raw": "You can either peel the sticker or punch a hole through the center to access the 2.4 mm screw."
+    },
+    {
+     "text_raw": "Remove the screw in the middle using the TR8 Torx screwdriver. Also, remove the two 2.4 mm screws on both sides of the controller."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3656435
+     },
+     {
+      "id": 3653309
+     },
+     {
+      "id": 3653313
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "Remove the back panel."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3653329
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "Turn the controller over and remove the front panel."
+    },
+    {
+     "text_raw": "Remove both thumb sticks by pulling them up."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3657166
+     },
+     {
+      "id": 3657167
+     },
+     {
+      "id": 3657168
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "Turn the controller over and remove the two 1.75 mm screws using the T6 Torx screwdriver."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3657562
+     },
+     {
+      "id": 3653346
+     },
+     {
+      "id": 3653347
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "Do not use excessive force when you pry open the sensor housing since it can damage it."
+    },
+    {
+     "text_raw": "Face the controller up, and with your tweezer, open the sensor housing by gently pushing away from the analog stick sensor."
+    },
+    {
+     "text_raw": "Pull the old sensor wheel out of the sensor housing."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3653365
+     },
+     {
+      "id": 3653366
+     },
+     {
+      "id": 3653367
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "Align the sensor wheel so that the sensor arms are facing upwards."
+    },
+    {
+     "text_raw": "Insert the sensor wheel into the sensor housing."
+    },
+    {
+     "text_raw": "Push the sensor housing back in using the spudger to close it back in."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3657563
+     },
+     {
+      "id": 3654281
+     },
+     {
+      "id": 3654282
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "You will repeat steps 6 and 7 for the other three sensor wheels."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3657564
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "Push the analog sticks back into the analog stick sensors."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3657173
+     },
+     {
+      "id": 3654288
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "Screw back in the 1.75 mm screws using the T6 Torx screwdriver."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3657169
+     },
+     {
+      "id": 3657170
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "Flip the controller over and place the front panel back."
+    },
+    {
+     "text_raw": "Turn it around and align the back panel so that the two battery terminal contacts are outside."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3654292
+     },
+     {
+      "id": 3657180
+     },
+     {
+      "id": 3657565
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "Screw back the 2.4 mm screws using the TR8 Torx screwdriver."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3657566
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 187435,
+   "lines": [
+    {
+     "text_raw": "Push the side panels back in place."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3657181
+     },
+     {
+      "id": 3657183
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,236 @@
+{
+ "guideid": 179646,
+ "revisionid": 2203114,
+ "title": "Xbox Series X Wireless Controller Daughterboard Replacement",
+ "category": "Xbox Series X Wireless Controller",
+ "type": "replacement",
+ "subject": "Daughterboard",
+ "public": true,
+ "published_date": 1733180472,
+ "created_date": 1732563633,
+ "locale": "en",
+ "url": "https://www.ifixit.com/Guide/Xbox+Series+X+Wireless+Controller+Daughterboard+Replacement/179646",
+ "author": {
+  "userid": 2315556,
+  "username": "Arthur Shi",
+  "reputation": 353558
+ },
+ "flags": [
+  {
+   "flagid": "GUIDE_PREREQ_ONLY"
+  }
+ ],
+ "tools": [
+  {
+   "text": "Angled Tweezers"
+  },
+  {
+   "text": "Spudger"
+  },
+  {
+   "text": "T6 Torx Screwdriver"
+  },
+  {
+   "text": "Soldering Iron"
+  },
+  {
+   "text": "Lead-Free Solder"
+  },
+  {
+   "text": "Silicone Work Mat"
+  },
+  {
+   "text": "FixHub Soldering Toolkit"
+  }
+ ],
+ "parts": [],
+ "prerequisites": [],
+ "introduction_raw": "Prereq-only guide to remove the daughterboard/joystick board from the Xbox X/S controller.",
+ "conclusion_raw": "***To reassemble your device, follow these instructions in reverse order.***\n\nTake your e-waste to an [[E-Waste|R2 or e-Stewards certified recycler|new_window=true]].\n\nRepair didn\u2019t go as planned? Try some [[Troubleshooting Problems After a Repair|basic troubleshooting]], or ask our [link|https://www.ifixit.com/Answers/Device/Xbox_Series_X_Wireless_Controller|Answers community] for help.",
+ "steps": [
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "Slide one arm of a pair of tweezers under the antenna [guide|25629|coaxial cable connector|stepid=64972|new_window=true], as close to the metal head as possible."
+    },
+    {
+     "text_raw": "Lift the connector straight up to disconnect it."
+    },
+    {
+     "text_raw": "Be sure to lift the coaxial connector straight up off of the socket to avoid bending the connector."
+    },
+    {
+     "text_raw": "Repeat the procedure for the second antenna cable."
+    },
+    {
+     "text_raw": "During reassembly, align the connector over the socket and use your finger to press it into place. A tool like a spudger can slide off and damage the surface-mounted components around the connector."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492707
+     },
+     {
+      "id": 3492706
+     },
+     {
+      "id": 3492705
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "Set the controller on a heat-resistant surface, such as a [product|IF145-789|silicone work mat|new_window=true]."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492688
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "Use your [product|IF145-495|soldering iron|new_window=true] to heat up one of the motor wire solder pads."
+    },
+    {
+     "text_raw": "Once the solder is melted, use tweezers to lift the wire away from the pad."
+    }
+   ],
+   "media": {
+    "type": "video",
+    "data": []
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "Desolder the seven remaining wires connecting the four motors to the motherboard."
+    },
+    {
+     "text_raw": "When you resolder these wires during reassembly, make sure to solder the red motor wires to the pads marked ***SQ3*** and ***SQ7***. This ensures that the large rumble motors spin in the correct direction."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492714
+     },
+     {
+      "id": 3492716
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "Use a Torx T6 driver to remove the two 7\u00a0mm\u2011long screws securing the daughterboard."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3496607
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "The daughterboard is still connected to the main board by a socket."
+    },
+    {
+     "text_raw": "Insert the flat end of a spudger between the daughterboard and the bottom edge of the frame at the location marked on the image."
+    },
+    {
+     "text_raw": "Twist the spudger to push up the daughterboard and disconnect the socket."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492726
+     },
+     {
+      "id": 3492700
+     },
+     {
+      "id": 3492698
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "Lift and remove the daughterboard."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492699
+     },
+     {
+      "id": 3492697
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "During reassembly:"
+    },
+    {
+     "text_raw": "Line up the daughterboard socket to the main board socket."
+    },
+    {
+     "text_raw": "Check that the headphone jack isn't out of position."
+    },
+    {
+     "text_raw": "Check that the [link|https://guide-images.cdn.ifixit.com/igi/h3VPhGBkUnNtgZoZ.full|antenna cables aren't trapped between the two boards|new_window=true]."
+    },
+    {
+     "text_raw": "Use your fingers to gently squeeze the boards together to reconnect the socket."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492723
+     },
+     {
+      "id": 3492694
+     },
+     {
+      "id": 3492693
+     }
+    ]
+   }
+  }
+ ]
+}

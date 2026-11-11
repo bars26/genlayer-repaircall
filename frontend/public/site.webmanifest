@@ -1,0 +1,10 @@
+{
+  "name": "RepairCall",
+  "short_name": "RepairCall",
+  "description": "Pay for the repair guide that is missing: iFixit guide calls judged by GenLayer validators",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F2EDE3",
+  "theme_color": "#F2EDE3",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

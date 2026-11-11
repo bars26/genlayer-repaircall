@@ -1,0 +1,111 @@
+{
+ "guideid": 160588,
+ "revisionid": 1861508,
+ "title": "Xbox Series X|S Controller (Model 1914) Right Handle Cover Replacement",
+ "category": "Xbox Series X Wireless Controller",
+ "type": "replacement",
+ "subject": "Right Handle Cover",
+ "public": true,
+ "published_date": 1684246817,
+ "created_date": 1682340912,
+ "locale": "en",
+ "url": "https://www.ifixit.com/Guide/Xbox+Series+X%7CS+Controller+(Model+1914)+Right+Handle+Cover+Replacement/160588",
+ "author": {
+  "userid": 4158147,
+  "username": "Manuel Haeussermann",
+  "reputation": 27396
+ },
+ "flags": [],
+ "tools": [
+  {
+   "text": "iFixit Opening Tool"
+  }
+ ],
+ "parts": [],
+ "prerequisites": [],
+ "introduction_raw": "Use this guide to replace the right handle cover on your Xbox Series X|S Controller (model 1914).",
+ "conclusion_raw": "***To reassemble your device, follow these instructions in reverse order.***\n\nRepair didn\u2019t go as planned? Try some [[Troubleshooting Problems After a Repair|basic troubleshooting]], or ask our [link|https://www.ifixit.com/Answers/Device/Xbox+Series+X+Wireless+Controller|Answers community|new_window=true] for help.",
+ "steps": [
+  {
+   "guideid": 160588,
+   "lines": [
+    {
+     "text_raw": "Insert an opening tool between the right handle cover and the bottom inner edge of the back housing."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2959861
+     },
+     {
+      "id": 2936107
+     },
+     {
+      "id": 2936108
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160588,
+   "lines": [
+    {
+     "text_raw": "Strong plastic clips secure the handle cover. Significant force is required to release them."
+    },
+    {
+     "text_raw": "Slide the opening tool along the inner edge of the right handle cover and pry intermittently to release the plastic clips."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2953746
+     },
+     {
+      "id": 2953748
+     },
+     {
+      "id": 2953747
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160588,
+   "lines": [
+    {
+     "text_raw": "The plastic clips on the outer edge make it difficult to slide along it and release the clips. Therefore, prying up on the inner edge is the easier option."
+    },
+    {
+     "text_raw": "Pry up the middle inner edge of the handle cover with the opening tool to release the remaining clips."
+    },
+    {
+     "text_raw": "Place a finger on top of the handle cover to prevent it from being forcefully ejected."
+    },
+    {
+     "text_raw": "Remove the right handle cover."
+    },
+    {
+     "text_raw": "To reinstall the right handle cover, position it on the back housing and press down firmly along the edges to engage all of the clips."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2960719
+     },
+     {
+      "id": 2960720
+     },
+     {
+      "id": 2936118
+     }
+    ]
+   }
+  }
+ ]
+}

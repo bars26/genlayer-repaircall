@@ -1,0 +1,350 @@
+{
+ "guideid": 248913,
+ "revisionid": 3087450,
+ "title": "Xbox Series LB RB repair",
+ "category": "Xbox Series X Wireless Controller",
+ "type": "technique",
+ "subject": "",
+ "public": true,
+ "published_date": 1794347558,
+ "created_date": 1794344139,
+ "locale": "en",
+ "url": "https://www.ifixit.com/Guide/Xbox+Series+LB+RB+repair/248913",
+ "author": {
+  "userid": 2567058,
+  "username": "@HectorNavarroMX",
+  "reputation": 4721
+ },
+ "flags": [
+  {
+   "flagid": "GUIDE_USER_CONTRIBUTED"
+  }
+ ],
+ "tools": [
+  {
+   "text": "A small knife or utility blade with a sharp edge."
+  },
+  {
+   "text": "Fine-tipped tweezers for electronics."
+  },
+  {
+   "text": "A little clean cotton."
+  },
+  {
+   "text": "Isopropyl alcohol."
+  },
+  {
+   "text": "Two-part epoxy glue."
+  },
+  {
+   "text": "A rounded tip or soft tool for scraping the metal."
+  }
+ ],
+ "parts": [],
+ "prerequisites": [],
+ "introduction_raw": "[video|https://www.youtube.com/watch?v=4-W55VYxxsY]\n\nIf the ***LB or RB button on your Xbox controller isn't responding*** or you have to press it very hard, the problem is usually ***dirt accumulated inside***.\n\nIn this guide, we show you step by step with photos how to ***open the button, clean it, and get it working*** again.",
+ "conclusion_raw": "The LB/RB failure described here is almost always caused by carbon buildup on the microswitch contacts, not by a failed component \u2014 which makes this a cleaning and reseating job rather than a parts-replacement repair. The 16 steps walk through opening the switch, scraping and polishing the dome and contact pads, and sealing the housing back up with epoxy.",
+ "steps": [
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "We connect the controller to confirm that the ***LB or RB button doesn't respond*** or fails when pressed."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7501992
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "With the knife held flat, we very carefully cut the tips of the plastic posts holding the ***metal cap***."
+    },
+    {
+     "text_raw": "Rest your fingers firmly on the green board to control the force and avoid cutting yourself."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502009
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "We remove all the leftover plastic so the ***metal cap is free*** of any obstruction."
+    },
+    {
+     "text_raw": "Be careful not to scrape the ***green coating of the logic board*** with the knife edge."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502034
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "We insert the tip of the knife under the edge and lift the ***metal cover*** very gently."
+    },
+    {
+     "text_raw": "Keep the cap in a safe place on your mat so it doesn't get lost."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502050
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "We remove the small ***black plastic center piece*** using the fine tweezers."
+    },
+    {
+     "text_raw": "We turn the board face-down so the ***curved metal plate*** falls out on its own onto the table without bending."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502207
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "At the bottom of the button you'll see ***dark stains like ash or soot*** on the three terminals."
+    },
+    {
+     "text_raw": "That black dirt builds up with every click and prevents the console from receiving your command."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502208
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "With the tip of the tweezers we very slowly scrape the ***center circle and the two edges***."
+    },
+    {
+     "text_raw": "Don't dig the tip in with force\u2014just rub it gently until the metal shines again."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502209
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "We moisten a small cotton ball with ***isopropyl alcohol***."
+    },
+    {
+     "text_raw": "We clean the inside of the button to remove all the loose black dust."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502212
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "If you look at the plate from the side, you'll notice it has a ***small rounded curve***."
+    },
+    {
+     "text_raw": "That shape is what makes the click when you play, so never flatten or deform it."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502214
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "We hold the plate with the tweezers barely touching the edges so we don't flatten it."
+    },
+    {
+     "text_raw": "With a ***smooth rounded tip*** we gently rub its underside to remove all the burnt soot."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502213
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "We pass another small piece of cotton with alcohol to clean the plate completely."
+    },
+    {
+     "text_raw": "You'll see the cotton come out stained black and the ***metal left shiny***."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502217
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "The ***shiny, domed side*** must face up, toward where you're looking at it."
+    },
+    {
+     "text_raw": "The side we scraped and polished should face down toward the bottom of the button."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502218
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "We place the ***small black plastic button*** right in the middle of the metal plate."
+    },
+    {
+     "text_raw": "We put the metal cap on top and press with the tweezers so it seats in place."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502219
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "Since we cut the factory posts, we now need to ***seal the structure*** so it doesn't come apart."
+    },
+    {
+     "text_raw": "We mix equal parts of the two glue tubes until it's an even gray color."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502221
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "We spread a little ***epoxy glue on the metal corners*** and on the plastic sides."
+    },
+    {
+     "text_raw": "***Never touch the black button in the center*** with glue or it will be stuck forever."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502222
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 248913,
+   "lines": [
+    {
+     "text_raw": "We let the glue dry for about 10 minutes before reassembling the controller shells."
+    },
+    {
+     "text_raw": "Test the controller on the console and you'll notice the ***button clicks softly again and responds on the first press***."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 7502223
+     }
+    ]
+   }
+  }
+ ]
+}

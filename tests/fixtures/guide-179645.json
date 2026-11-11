@@ -1,0 +1,1358 @@
+{
+ "guideid": 179645,
+ "revisionid": 2238296,
+ "title": "Xbox Series X/S Wireless Controller Joystick Replacement",
+ "category": "Xbox Series X Wireless Controller",
+ "type": "replacement",
+ "subject": "Joystick",
+ "public": true,
+ "published_date": 1733180371,
+ "created_date": 1732560566,
+ "locale": "en",
+ "url": "https://www.ifixit.com/Guide/Xbox+Series+X-S+Wireless+Controller+Joystick+Replacement/179645",
+ "author": {
+  "userid": 2315556,
+  "username": "Arthur Shi",
+  "reputation": 353558
+ },
+ "flags": [
+  {
+   "flagid": "GUIDE_STARRED"
+  }
+ ],
+ "tools": [
+  {
+   "text": "T6 Torx Screwdriver"
+  },
+  {
+   "text": "TR8 Torx Security Screwdriver"
+  },
+  {
+   "text": "iFixit Opening Tool"
+  },
+  {
+   "text": "Angled Tweezers"
+  },
+  {
+   "text": "Helping Hands"
+  },
+  {
+   "text": "No-Clean Flux"
+  },
+  {
+   "text": "Soldering Iron"
+  },
+  {
+   "text": "Desoldering Pump"
+  },
+  {
+   "text": "Lead-Free Solder"
+  },
+  {
+   "text": "iFixit Desoldering Wick"
+  },
+  {
+   "text": "Needle Nose Pliers"
+  },
+  {
+   "text": "iFixit Mandible Flush Cutters"
+  },
+  {
+   "text": "Spudger"
+  },
+  {
+   "text": "Isopropyl Alcohol (90% or Greater)"
+  },
+  {
+   "text": "Cotton Swabs"
+  },
+  {
+   "text": "Solder Leaded 63 37 Rosin Core"
+  },
+  {
+   "text": "Silicone Work Mat"
+  },
+  {
+   "text": "FixHub Soldering Toolkit"
+  }
+ ],
+ "parts": [
+  {
+   "text": "Xbox Series X/S Controller Joystick"
+  },
+  {
+   "text": "Xbox Series X/S Controller - Gulikit TMR Joystick"
+  }
+ ],
+ "prerequisites": [
+  {
+   "guideid": 160495,
+   "title": "Xbox Series X|S Controller (Model 1914) Battery Replacement"
+  },
+  {
+   "guideid": 160587,
+   "title": "Xbox Series X|S Controller (Model 1914) Left Handle Cover Replacement"
+  },
+  {
+   "guideid": 160588,
+   "title": "Xbox Series X|S Controller (Model 1914) Right Handle Cover Replacement"
+  },
+  {
+   "guideid": 160494,
+   "title": "Xbox Series X|S Controller (Model 1914) Top Housing Replacement"
+  },
+  {
+   "guideid": 160496,
+   "title": "Xbox Series X|S Controller (Model 1914) Back Housing Replacement"
+  },
+  {
+   "guideid": 179646,
+   "title": "Xbox Series X Wireless Controller Daughterboard Replacement"
+  }
+ ],
+ "introduction_raw": "Follow this guide to replace a broken or drifting joystick (aka thumbstick or analog stick) for the Xbox Series X/S wireless controller. If you experience persistent stick drift, you can't fix it by cleaning your controller\u2014it's likely a worn out joystick module.\n\nThis repair requires [guide|750|intermediate soldering skills|new_window=true]. Desoldering the joystick module is difficult, but can be done with some patience.\n\nIf you have a hot air station, you can use it to desolder all the contacts simultaneously to extract the joystick. However, this guide shows you how to cut apart the joystick module so you can desolder the pieces individually with a [product|IF145-494|soldering iron|new_window=true]. ***The procedure will destroy the existing joystick module.***\n\nReplace the drifting joystick with a [product|IF462-021|TMR joystick module|new_window=true] to fix stick wear and drift permanently.",
+ "conclusion_raw": "Congratulations! You've replaced the controller's joystick and, in the process, leveled up your soldering skills.\n\n***To reassemble the controller, [guide|179645|go to this step|stepid=383413] and follow the instructions in reverse order.***\n\n***You'll need to run the thumbstick recalibration tool to calibrate the new joystick:***\n\n* On an Xbox, press the Xbox button on the controller, then navigate to Settings ***\u2192*** Devices & connections ***\u2192*** Controllers & headsets.\n* On a PC, download the [link|https://apps.microsoft.com/detail/9nblggh30xj3|Xbox Accessories app|new_window=true] and look for the recalibration option.\nTake your e-waste to an [[E-Waste|R2 or e-Stewards certified recycler|new_window=true]].\n\nRepair didn\u2019t go as planned? Try some [[Troubleshooting Problems After a Repair|basic troubleshooting]], or ask our [link|https://www.ifixit.com/Answers/Device/Xbox_Series_X_Wireless_Controller|Answers community] for help.",
+ "steps": [
+  {
+   "guideid": 160495,
+   "lines": [
+    {
+     "text_raw": "Use your fingers to slide up and remove the battery cover."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2932832
+     },
+     {
+      "id": 2932831
+     },
+     {
+      "id": 2932830
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160495,
+   "lines": [
+    {
+     "text_raw": "Remove the batteries."
+    },
+    {
+     "text_raw": "When re-inserting the batteries, make sure to position them correctly, with their positive (+) and negative (\u2013) ends matching up with the markings on the controller\u2019s battery contacts. If your batteries are starting to corrode, replace them with new batteries."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2932835
+     },
+     {
+      "id": 2932836
+     },
+     {
+      "id": 2932837
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160587,
+   "lines": [
+    {
+     "text_raw": "Insert an opening tool between the left handle cover and the bottom inner edge of the back housing."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2959860
+     },
+     {
+      "id": 2936092
+     },
+     {
+      "id": 2936093
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160587,
+   "lines": [
+    {
+     "text_raw": "Strong plastic clips secure the handle cover. Significant force is required to release them."
+    },
+    {
+     "text_raw": "Slide the opening tool along the inner edge of the left handle cover and pry intermittently to release the plastic clips."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2953744
+     },
+     {
+      "id": 2953745
+     },
+     {
+      "id": 2953743
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160587,
+   "lines": [
+    {
+     "text_raw": "The plastic clips on the outer edge make it difficult to slide along it and release the clips. Therefore, prying up on the inner edge is the easier option."
+    },
+    {
+     "text_raw": "Pry up the middle inner edge of the handle cover with the opening tool to release the remaining clips."
+    },
+    {
+     "text_raw": "Place a finger on top of the handle cover to prevent it from being forcefully ejected."
+    },
+    {
+     "text_raw": "Remove the left handle cover."
+    },
+    {
+     "text_raw": "To reinstall the left handle cover, position it on the back housing and press down firmly along the edges to engage all of the clips."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2960721
+     },
+     {
+      "id": 2960722
+     },
+     {
+      "id": 2936119
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160588,
+   "lines": [
+    {
+     "text_raw": "Insert an opening tool between the right handle cover and the bottom inner edge of the back housing."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2959861
+     },
+     {
+      "id": 2936107
+     },
+     {
+      "id": 2936108
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160588,
+   "lines": [
+    {
+     "text_raw": "Strong plastic clips secure the handle cover. Significant force is required to release them."
+    },
+    {
+     "text_raw": "Slide the opening tool along the inner edge of the right handle cover and pry intermittently to release the plastic clips."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2953746
+     },
+     {
+      "id": 2953748
+     },
+     {
+      "id": 2953747
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160588,
+   "lines": [
+    {
+     "text_raw": "The plastic clips on the outer edge make it difficult to slide along it and release the clips. Therefore, prying up on the inner edge is the easier option."
+    },
+    {
+     "text_raw": "Pry up the middle inner edge of the handle cover with the opening tool to release the remaining clips."
+    },
+    {
+     "text_raw": "Place a finger on top of the handle cover to prevent it from being forcefully ejected."
+    },
+    {
+     "text_raw": "Remove the right handle cover."
+    },
+    {
+     "text_raw": "To reinstall the right handle cover, position it on the back housing and press down firmly along the edges to engage all of the clips."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2960719
+     },
+     {
+      "id": 2960720
+     },
+     {
+      "id": 2936118
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160494,
+   "lines": [
+    {
+     "text_raw": "The sticker in the battery compartment covers a housing screw. Peel it back or pierce through it with a screwdriver."
+    },
+    {
+     "text_raw": "Use a pair of [product|IF145-020|tweezers] or your fingers to peel back the sticker to reveal the screw."
+    },
+    {
+     "text_raw": "You only need to peel this sticker to where you can access the hidden screw. You don't need to pull it completely off."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2932857
+     },
+     {
+      "id": 2932856
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160494,
+   "lines": [
+    {
+     "text_raw": "Use a T8R Torx Security driver to remove the five 9.3\u00a0mm-long screws securing the top housing, three near the top and two at the bottom."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2932862
+     },
+     {
+      "id": 2932864
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160494,
+   "lines": [
+    {
+     "text_raw": "Lift the top housing straight up to remove it."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2932866
+     },
+     {
+      "id": 2932868
+     },
+     {
+      "id": 2932869
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160496,
+   "lines": [
+    {
+     "text_raw": "Insert the flat end of a spudger into the rectangular gap between the midframe assembly and back housing, nearest the left bumper."
+    },
+    {
+     "text_raw": "Twist the spudger to partially release the midframe assembly."
+    },
+    {
+     "text_raw": "Repeat this prying procedure on the gap near the right bumper to completely release the midframe assembly."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2932873
+     },
+     {
+      "id": 2932875
+     },
+     {
+      "id": 2932874
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 160496,
+   "lines": [
+    {
+     "text_raw": "Lift up and remove the midframe assembly."
+    },
+    {
+     "text_raw": "Only the back housing remains."
+    },
+    {
+     "text_raw": "During reassembly, thread the [link|https://guide-images.cdn.ifixit.com/igi/dD3QQYtmpklYmqAn.full|battery contacts on the midframe assembly|new_window=true] through the back housing."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 2932876
+     },
+     {
+      "id": 2932878
+     },
+     {
+      "id": 2932881
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "Slide one arm of a pair of tweezers under the antenna [guide|25629|coaxial cable connector|stepid=64972|new_window=true], as close to the metal head as possible."
+    },
+    {
+     "text_raw": "Lift the connector straight up to disconnect it."
+    },
+    {
+     "text_raw": "Be sure to lift the coaxial connector straight up off of the socket to avoid bending the connector."
+    },
+    {
+     "text_raw": "Repeat the procedure for the second antenna cable."
+    },
+    {
+     "text_raw": "During reassembly, align the connector over the socket and use your finger to press it into place. A tool like a spudger can slide off and damage the surface-mounted components around the connector."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492707
+     },
+     {
+      "id": 3492706
+     },
+     {
+      "id": 3492705
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "Set the controller on a heat-resistant surface, such as a [product|IF145-789|silicone work mat|new_window=true]."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492688
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "Use your [product|IF145-495|soldering iron|new_window=true] to heat up one of the motor wire solder pads."
+    },
+    {
+     "text_raw": "Once the solder is melted, use tweezers to lift the wire away from the pad."
+    }
+   ],
+   "media": {
+    "type": "video",
+    "data": []
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "Desolder the seven remaining wires connecting the four motors to the motherboard."
+    },
+    {
+     "text_raw": "When you resolder these wires during reassembly, make sure to solder the red motor wires to the pads marked ***SQ3*** and ***SQ7***. This ensures that the large rumble motors spin in the correct direction."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492714
+     },
+     {
+      "id": 3492716
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "Use a Torx T6 driver to remove the two 7\u00a0mm\u2011long screws securing the daughterboard."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3496607
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "The daughterboard is still connected to the main board by a socket."
+    },
+    {
+     "text_raw": "Insert the flat end of a spudger between the daughterboard and the bottom edge of the frame at the location marked on the image."
+    },
+    {
+     "text_raw": "Twist the spudger to push up the daughterboard and disconnect the socket."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492726
+     },
+     {
+      "id": 3492700
+     },
+     {
+      "id": 3492698
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "Lift and remove the daughterboard."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492699
+     },
+     {
+      "id": 3492697
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179646,
+   "lines": [
+    {
+     "text_raw": "During reassembly:"
+    },
+    {
+     "text_raw": "Line up the daughterboard socket to the main board socket."
+    },
+    {
+     "text_raw": "Check that the headphone jack isn't out of position."
+    },
+    {
+     "text_raw": "Check that the [link|https://guide-images.cdn.ifixit.com/igi/h3VPhGBkUnNtgZoZ.full|antenna cables aren't trapped between the two boards|new_window=true]."
+    },
+    {
+     "text_raw": "Use your fingers to gently squeeze the boards together to reconnect the socket."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492723
+     },
+     {
+      "id": 3492694
+     },
+     {
+      "id": 3492693
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Each joystick module is secured with 14 solder joints:"
+    },
+    {
+     "text_raw": "Four frame anchor joints"
+    },
+    {
+     "text_raw": "Six joints connecting the two potentiometers"
+    },
+    {
+     "text_raw": "Four joystick push-button joints"
+    },
+    {
+     "text_raw": "The remaining steps will show how to replace the left joystick (with the controller facing you). You can follow the same procedure to replace the right joystick."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492611
+     },
+     {
+      "id": 3492603
+     },
+     {
+      "id": 3492608
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Insert the tips of a pair of angled tweezers between the top edge of a potentiometer and the joystick frame."
+    },
+    {
+     "text_raw": "Pivot the tweezers down to bend the top edge of the potentiometer away from the joystick frame."
+    },
+    {
+     "text_raw": "Repeat the procedure with the second potentiometer."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492559
+     },
+     {
+      "id": 3492558
+     },
+     {
+      "id": 3492557
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Use tweezers to remove the round wiper mechanism out of both potentiometers."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492555
+     },
+     {
+      "id": 3492556
+     },
+     {
+      "id": 3492554
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Secure the motherboard so that you can desolder [link|https://guide-images.cdn.ifixit.com/igi/NpxyHMc1JxQUopNB.full|both potentiometers'|new_window=true] solder joints."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492552
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Apply [product|IF145-581|flux|new_window=true] to the three solder joints securing one of the potentiometers."
+    },
+    {
+     "text_raw": "Flux improves the flow of molten solder, which makes it easier to work with. If you're having trouble with goopy or sticky solder, apply more flux."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492553
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "For full instructions on how to desolder through-hole solder joints, [guide|750|follow this guide|stepid=4052|new_window=true]."
+    },
+    {
+     "text_raw": "Set your soldering iron to 375\u00a0\u00b0C (707\u00a0\u00b0F) and press the tip against a joint to heat it."
+    },
+    {
+     "text_raw": "Don't heat the joint longer than 15 seconds at a time, or you risk damaging the solder pad."
+    },
+    {
+     "text_raw": "If you're having trouble melting the solder joint, apply some ''leaded solder'' onto your soldering iron tip and try again. The leaded solder helps with heat transfer while lowering the melting temperature of the existing lead-free solder joint."
+    },
+    {
+     "text_raw": "Once the joint's molten, [guide|142538|use a desoldering pump|new_window=true] to suck away the solder."
+    },
+    {
+     "text_raw": "Repeat the heating and sucking procedure a few times ''on the same joint'' to remove as much solder as possible."
+    },
+    {
+     "text_raw": "Don't heat the joint continuously for longer than 15 seconds at a time to avoid damaging the pad."
+    }
+   ],
+   "media": {
+    "type": "video",
+    "data": []
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Repeat the procedure to desolder the remaining two joints securing the potentiometer."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492545
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "This step shows how to remove residual solder with a solder wick. ***If the potentiometer feels loose, skip this step.***"
+    },
+    {
+     "text_raw": "Apply flux to the solder joint."
+    },
+    {
+     "text_raw": "Lay a piece of clean solder wick over the solder joint."
+    },
+    {
+     "text_raw": "Press the tip of your soldering iron over the wick so that the residual solder melts and transfers onto the wick."
+    },
+    {
+     "text_raw": "Repeat the process with the remaining two solder joints."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492624
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "User tweezers or pliers to gently pull the potentiometer away from the board."
+    },
+    {
+     "text_raw": "Don't pull excessively, or you'll rip out a solder pad. If the potentiometer feels stuck, follow the previous three steps to try to remove the solder residue holding the potentiometer in place."
+    },
+    {
+     "text_raw": "You can also try heating each joint as you wiggle the potentiometer out of the board. This is best accomplished with help from a friend."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492541
+     },
+     {
+      "id": 3492538
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Repeat the desoldering procedure to desolder and remove the second potentiometer."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492540
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Use flush cutters to cut the top corners of the joystick frame."
+    },
+    {
+     "text_raw": "Be very careful not to cut yourself on the sharp edges. Bend any sharp edges down with pliers."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492630
+     },
+     {
+      "id": 3492536
+     },
+     {
+      "id": 3496621
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Remove any loose frame pieces from the joystick module."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492533
+     },
+     {
+      "id": 3492532
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Use pliers to bend the remaining frame sides outward."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492531
+     },
+     {
+      "id": 3492530
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Remove the plastic joystick components from the center of the frame."
+    },
+    {
+     "text_raw": "Remove any loose frame pieces."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492527
+     },
+     {
+      "id": 3492526
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Use flush cutters to cut both legs for one of the frame walls."
+    },
+    {
+     "text_raw": "Remove the loose frame wall."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3497101
+     },
+     {
+      "id": 3497104
+     },
+     {
+      "id": 3496623
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Repeat the procedure to cut and remove the last frame wall."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3497103
+     },
+     {
+      "id": 3497102
+     },
+     {
+      "id": 3497105
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Secure the motherboard so that the solder joints face upward."
+    },
+    {
+     "text_raw": "Use your soldering iron to heat a solder joint securing one of the frame anchors."
+    },
+    {
+     "text_raw": "Once the solder is melted, use tweezers to grab and pull the frame anchor out of its through-hole."
+    },
+    {
+     "text_raw": "If you're having trouble melting the solder joint, apply some leaded solder onto your soldering iron tip and try again."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3497112
+     },
+     {
+      "id": 3492520
+     },
+     {
+      "id": 3492517
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Repeat the procedure to remove the remaining three frame anchors."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492516
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Slide the flat end of a spudger under the joystick module's plastic base."
+    },
+    {
+     "text_raw": "Slowly pry up the base to bend and break it away from the motherboard."
+    },
+    {
+     "text_raw": "Remove the plastic base."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492518
+     },
+     {
+      "id": 3492644
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Use flush cutters and pliers to break and remove the plastic base remnants from the push-button."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492515
+     },
+     {
+      "id": 3492513
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Use flush cutters to cut the four push-button pins along the bottom edge of the button, securing it to the motherboard."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492512
+     },
+     {
+      "id": 3492514
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Remove the push-button."
+    },
+    {
+     "text_raw": "Remove any plastic base remnants."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492510
+     },
+     {
+      "id": 3492509
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Secure the motherboard so that the solder joints face upward."
+    },
+    {
+     "text_raw": "Use your soldering iron to heat a solder joint securing one of the push-button pins."
+    },
+    {
+     "text_raw": "Once the solder is melted, use tweezers to grab and pull the pin out of its through-hole."
+    },
+    {
+     "text_raw": "Repeat the procedure to remove the remaining three push-button pins."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492508
+     },
+     {
+      "id": 3497142
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Secure the motherboard so you can access both sides of it."
+    },
+    {
+     "text_raw": "Use the soldering iron to heat one side of a through-hole."
+    },
+    {
+     "text_raw": "Use a desoldering pump on the opposite side of the through-hole to suck up any remaining solder."
+    },
+    {
+     "text_raw": "Don't heat the through-hole continuously for longer than 15 seconds at a time to avoid damaging the pad."
+    },
+    {
+     "text_raw": "If needed, use solder wick to remove any residual solder."
+    },
+    {
+     "text_raw": "Repeat this for all through-holes and both sides of the motherboard."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492504
+     },
+     {
+      "id": 3492507
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Visually inspect each through-hole and make sure they're not blocked by residual solder. If some holes look blocked, repeat the previous step to clear the blockage."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3497146
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Apply a few drops of high concentration (>90%) isopropyl alcohol to the top side of the motherboard, where the new joystick module will sit."
+    },
+    {
+     "text_raw": "Use a cotton swab or a soft brush and cloth to wipe away the flux residue."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492503
+     },
+     {
+      "id": 3492502
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Place the replacement joystick module onto the motherboard."
+    },
+    {
+     "text_raw": "Gently press the joystick onto the board so that the joystick sits flush with the board surface."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492676
+     },
+     {
+      "id": 3492498
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Flip the motherboard over and secure it so that you can solder the joystick module pins."
+    },
+    {
+     "text_raw": "Apply flux to the first few solder pads that you're going to solder."
+    },
+    {
+     "text_raw": "It may be helpful to solder one of the [link|https://guide-images.cdn.ifixit.com/igi/qSfsZcT4EPFhSHqG.full|frame anchors|new_window=true] first, so that the joystick will be more stable to work on."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492497
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "For full instructions on how to solder through-hole solder joints, [guide|750|follow this guide|stepid=4038|new_window=true]."
+    },
+    {
+     "text_raw": "Solder one of the pins to the motherboard."
+    }
+   ],
+   "media": {
+    "type": "video",
+    "data": []
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Make sure the joystick module hasn't moved away from the motherboard during the soldering process. Reheat the soldered pin and reposition the module as needed."
+    },
+    {
+     "text_raw": "Solder the remaining pins (14 total) to the motherboard. Apply flux as you solder to help create good bonds."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492665
+     },
+     {
+      "id": 3492493
+     },
+     {
+      "id": 3492668
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Visually inspect your work:"
+    },
+    {
+     "text_raw": "Make sure each solder joint looks well-formed."
+    },
+    {
+     "text_raw": "Make sure no solder joints are shorting each other."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492670
+     }
+    ]
+   }
+  },
+  {
+   "guideid": 179645,
+   "lines": [
+    {
+     "text_raw": "Apply a few drops of high concentration (>90%) isopropyl alcohol to the motherboard wherever you can see flux residue."
+    },
+    {
+     "text_raw": "Use a cotton swab or a soft brush and cloth to wipe away the flux residue."
+    }
+   ],
+   "media": {
+    "type": "image",
+    "data": [
+     {
+      "id": 3492492
+     },
+     {
+      "id": 3492490
+     }
+    ]
+   }
+  }
+ ]
+}
